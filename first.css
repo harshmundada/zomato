@@ -1,0 +1,302 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header{
+    height:60px;
+    width:100%;
+    background-color:rgb(215 111 63);
+    
+
+    
+}
+#heading
+{ 
+    
+float:left;
+
+
+}
+.social{  
+    float:right;
+}
+.slogo
+{
+    height:50px;
+    width:50px;
+
+}
+#search
+{
+    width:100%;
+    height:400px;
+   background-image: url("food-wallpaper.png");
+   background-repeat:no-repeat;
+   background-size: 100% 400px;
+  
+ 
+
+}
+#container
+{
+   
+   position:absolute;
+    margin-top:20px;
+    margin-left:29%;
+    height:350px;
+    width:550px;
+    
+}
+#logo
+{
+    width:150px;
+    height:150px;
+    color:white;
+    border-radius:90px;
+    margin-left:230px;
+    font-size:40px;
+    background-color:red;
+
+
+}
+#logo>span
+{
+    margin-left:3%;
+  
+   margin-top:9%;
+    position:absolute;
+}
+#heading1
+{
+    
+    font-size:33px;
+    margin-left:100px;
+    color:white;
+
+}
+#dropdown
+{
+    margin-top:9%;
+    margin-left:9%;
+    width:100%;
+
+   
+    
+}
+select
+{
+    height:50px;
+    width:45%;
+    text-align:center;
+    font-size:20px;
+    
+
+}
+.rest
+{
+    width:54%;
+}
+#quicksearch{
+    display:inline-block;
+     margin-left:10%;
+    width:80%;
+    margin-top:2%;
+ 
+
+
+}
+.display{
+    font-size:30px;
+    display:block;
+    color:rgb(189, 143, 86);
+    font-family:cursive;
+    font-weight:bolder;
+    margin-top:2%;
+    margin-left:2%;
+   
+}
+.display1{
+    font-size:19px;
+    display:block;
+    color:rgb(11, 147, 90);
+   font-style:italic;
+   line-height:3;
+   margin-top:2%;
+    margin-left:2%;
+   
+}
+.insidediv
+{
+    float:left;
+    height:180px;
+    width:30%;
+    margin-top:2%;
+    margin-left:2%;
+   box-shadow:9px 9px 17px grey;
+}
+.insidediv1
+{
+    width:55%;
+    height:200px;
+   
+float:left;
+}
+.insidediv2
+{
+    float:left;
+    width:40%;
+    height:200px;
+    margin-top: 20%;
+    margin-left:3%;
+}
+.divhead>a
+{
+    color:orange;
+ margin-left:20px;
+ font-size:23px;
+
+}
+.divsubhead
+{
+    color:rgb(27, 111, 179);
+    font-size:23px;
+}
+.insidediv1>img
+{
+ width:100%;
+ height:180px;
+}
+footer{
+    margin-top:2%;
+    width:100%;
+    height:80px;
+    background-color:orange;
+    font-size:21px;
+}
+footer>p{
+margin-left:45%;
+height:29px;
+
+
+
+}
+.no
+{
+    height:0px;
+}
+@media screen and (max-width:1600px)
+{
+body {
+    background-color:black;
+}
+}
+@media screen and (max-width:1400px)
+{
+    body {
+        background-color:black;
+    }
+    
+}
+@media screen and (max-width:1050px) 
+{
+    body {
+        background-color:rgb(24, 24, 23);
+    }
+    .insidediv{
+        width:45%;
+        box-shadow: 15px 8px 17px grey;
+    }
+    .divsubhead
+    {
+        font-size:20px;
+    }
+    #logo
+    {
+        margin-left:190px;
+    }
+}
+@media screen and (max-width:900px)
+{
+    body {
+        background-color:rgb(15, 15, 15);
+    }
+    #container 
+    {
+margin-left:15%;
+    }
+
+    .divsubhead {
+        font-size: 23px;
+        margin-left: 12%;
+
+    }
+
+}
+@media screen and (max-width:800px)
+{
+    body {
+        background-color:rgb(3, 3, 3);
+    }
+    .divhead>a{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:750px)
+{
+    body {
+        background-color:rgb(37, 35, 35);
+    }
+    #dropdown {
+     
+        margin-left: 3%
+}
+.insidediv {
+    width: 48%;
+}
+}
+ @media screen and (max-width:680px)
+
+{
+    body {
+        background-color:rgb(21, 21, 21);
+    }
+    
+        #dropdown
+        {
+            margin-left: -12%;
+        } 
+        
+    #heading1 {
+        font-size: 32px;
+        margin-left: 40px;
+    }
+    .insidediv {
+        width: 95%;
+    }
+    #container {
+        width: 490px;
+    }
+}
+@media screen and (max-width:560px){
+      #dropdown {
+        margin-left: 0%;
+        width: 75%;
+    }
+    #heading1 {
+        font-size: 32px;
+        margin-left: 5px;
+    }
+    #logo {
+        margin-left: 119px;
+    }
+    
+    #container {
+        
+        width: 460px;    
+    }
+    #dropdown {
+        margin-left: -8%;
+        width: 100%
+    }
+}

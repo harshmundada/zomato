@@ -1,0 +1,121 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    height:60px;
+    width:100%;
+    background-color:rgb(215 111 63);
+    
+
+    
+}
+#heading
+{ 
+    
+float:left;
+
+
+}
+.social{  
+    float:right;
+}
+.slogo
+{
+    height:50px;
+    width:50px;
+
+}
+.headingtext
+{
+    margin-top:2%;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+ 
+}
+.maindiv {
+   height:550px;
+    width:80%;
+     margin-left:10%;
+     margin-top:3%;
+     display:inline-block;
+    line-height:1.7;
+   
+}
+.imgdiv {
+    height:400px;
+    width:45%;
+    border:8px groove grey;
+    float:left;
+  
+}
+.imgdiv>img 
+{
+    width:100%;
+    height:387px;
+}
+.contentdiv {
+    height:550px;
+    width:50%;
+    float:left;
+ margin-left:3%;
+ margin-top:-2%;
+
+}
+.featurediv
+{
+width: 100%;
+display:inline-block;
+
+}
+.feature
+{
+float:left;
+margin-left:5%;
+
+
+}
+.fetIcon
+{
+    margin-top:10%;
+height:100px;
+width:100px;
+margin-left:2%;
+}
+.fetIconremove{
+    margin-left:-20%;
+}
+.avail
+{
+color:green;
+font-size:39px;
+}
+.button
+{
+    height:50px;
+    width:200px;
+    color:white;
+    background-color:rgb(77, 10, 10);
+}
+.checked
+{
+color:green;
+}
+
+footer{
+    margin-top:2%;
+    width:100%;
+    height:80px;
+    background-color:orange;
+    font-size:21px;
+}
+footer>p{
+margin-left:45%;
+height:29px;
+
+
+
+}
